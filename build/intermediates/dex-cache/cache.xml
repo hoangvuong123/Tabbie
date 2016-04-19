@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Workspace\Androids\new guitar\app\libs\jtransforms-2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9e52124b670340d47844a734e36765c3bc11b7f3">
+        <dex dex="D:\Workspace\Androids\new guitar\app\build\intermediates\pre-dexed\debug\jtransforms-2.4-870154d586ee735643533db22a669dc550e83891.jar" />
+    </item>
+    <item
+        jar="D:\Workspace\Androids\new guitar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\Workspace\Androids\new guitar\app\build\intermediates\pre-dexed\debug\classes-e52e7812009e0b69de07cc31fe89a9aa33133eb9.jar" />
+    </item>
+    <item
+        jar="D:\Workspace\Androids\new guitar\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\Workspace\Androids\new guitar\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-e892371936aa63a1c2d817d33956bd10810ec379.jar" />
+    </item>
+    <item
+        jar="C:\Users\51204_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\Workspace\Androids\new guitar\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-6a4c694ceb66abfb50a44a31e532f484fd675380.jar" />
+    </item>
+    <item
+        jar="D:\Workspace\Androids\new guitar\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Workspace\Androids\new guitar\app\build\intermediates\pre-dexed\debug\classes-07c6326035db46b5ea0103d85c65af86705f7ee1.jar" />
+    </item>
+
+</items>

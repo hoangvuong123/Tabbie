@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#343434"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mainMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:id="@+id/tune"
+            android:contentDescription="@string/tuningPlane"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/tune_horizontal"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/dotAb"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/dot"
+            android:layout_alignTop="@+id/tuningSelector"
+            android:layout_alignParentStart="true" />
+
+        <Spinner
+            android:id="@+id/tuningSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/guitar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tuningSelector"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tune"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/strings0"
+            android:visibility="invisible"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:textSize="20dp"
+            android:text="AA"
+            android:textColor="#ffff0000"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout><!-- From: file:/D:/Workspace/Androids/new%20guitar/app/src/main/res/layout/main.xml -->
